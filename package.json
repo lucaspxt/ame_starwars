@@ -1,0 +1,19 @@
+{
+  "name": "starwars_api",
+  "version": "1.0.0",
+  "description": "Desafio Tecnico - Dev. Back-End",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6",
+    "node-restful": "^0.2.6",
+    "request": "^2.88.0"
+  }
+}
