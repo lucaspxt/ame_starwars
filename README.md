@@ -116,6 +116,7 @@ Resultado:
 
 
 Para buscar por id há duas formas, pela url ou atributo, basta enviar uma requisição GET para a url localhost:800/planet/<id>
+  
 ![](/img/08.2.JPG)
 
 
