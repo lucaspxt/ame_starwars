@@ -82,6 +82,7 @@ Uma vez que apareça no prompt "Server ON port: 8000", está pronto.
 Iremos utilizar o Postman para consumir a API. 
 Abra o Postman e digite na barra de endereço a URL "localhost:8000/planet".
 
-Como não possuimos nenhum registro de planeta no banco de dados, o primeiro passo será realizar uma requisição POST para nossa API contendo os atributos name (nome), climate (clima) e terrain (terreno). Conforme requisito, a API deverá utilizar o nome do planeta para consultar a [API pública do Star](Wars https://swapi.co/) e ter a quantidade de aparições em filmes.
-![](/img/o1.jpg)
+Como não possuimos nenhum registro de planeta no banco de dados, o primeiro passo será realizar uma requisição POST para nossa API contendo os atributos name (nome), climate (clima) e terrain (terreno). Conforme requisito, a API deverá utilizar o nome do planeta para consultar a [API pública do Star Wars](https://swapi.co/) e ter a quantidade de aparições em filmes.
+![](/img/01.jpg)
+<img src="/img/01.jpg">
 
