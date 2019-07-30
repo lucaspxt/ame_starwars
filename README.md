@@ -30,7 +30,7 @@ Queremos criar um jogo com algumas informações da franquia Star Wars, para iss
 **Postman**
 
 ## Instalações
-Para executar o projeto, será necessário possuir o NodeJs e MongoDB instalados.
+Para executar o projeto, será necessário possuir o NodeJs, MongoDB e o Postman instalados.
 * [Baixar NodeJS](https://nodejs.org/en/download/)
 * [Baixar MongoDB](https://www.mongodb.com/download-center) 
 * [Baixar Postman](https://www.getpostman.com/downloads/)
@@ -76,5 +76,10 @@ Após a instalção, basta agora iniciar a aplicação com o comando "node app.j
 C:\ame\api> node app.js
 ```
 
+Uma vez que apareça no prompt "Server ON port: 8000", está pronto.
+
+## Consumindo a API
+Iremos utilizar o Postman para consumir a API. 
+Abra o Postman e digite na barra de endereço a URL "localhost:8000/planet".
 
 
