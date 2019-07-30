@@ -71,7 +71,7 @@ Instale as dependências necessárias executando o comando "npm install --save".
 C:\ame\api> npm install --save
 ```
 
-Após a instalção, basta agora iniciar a aplicação com o comando "node app.js".
+Após a instalação, basta agora iniciar a aplicação com o comando "node app.js".
 ```
 C:\ame\api> node app.js
 ```
@@ -86,7 +86,7 @@ Abra o Postman e digite na barra de endereço a URL "localhost:8000/planet".
 Como não possuimos nenhum registro de planeta no banco de dados, o primeiro passo será realizar uma requisição POST para nossa API contendo os atributos name (nome), climate (clima) e terrain (terreno). 
 Conforme requisito, a API deverá utilizar o nome do planeta para consultar a [API pública do Star Wars](https://swapi.co/) e obter a quantidade de aparições em filmes.
 
-Selecione o método POST na seleção ao lado do endereço de URL, clique na aba "Body" e marque a opção "x-www-form-urlencoded". Nos campos abaixo adicione os atributos e valores conforme o exemplo abaixo:
+Selecione o método POST na seleção ao lado do endereço de URL, clique na aba "Body" e marque a opção "x-www-form-urlencoded". Nos campos abaixo adicione os atributos e valores conforme o exemplo:
 ![](/img/01.JPG)
 
 
@@ -124,7 +124,7 @@ Ou por atributo no corpo da requisição:
 
 
 ### Deletando planeta
-Para deletar um planeta, faça uma requisição DELETE para a url localhost:800/planet/id.
+Para deletar um planeta, faça uma requisição DELETE para a url localhost:800/planet/id. Você poderá deletar também pelo atributo _id no corpo da requisição.
 ![](/img/09.JPG)
   
   
