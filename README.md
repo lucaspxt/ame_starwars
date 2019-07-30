@@ -37,11 +37,11 @@ Para executar o projeto, será necessário possuir o NodeJs, MongoDB e o Postman
 
 ## Executando o MongoDB
 Após a instalação do MongoDB, verifique se foi criado o diretório padrão onde serão armazenadas todas as bases de dados em **C:/data/db**. Caso o diretório não exista, crie-o.
-``
+```
 C:\>mkdir data
 C:\>cd data
 C:\data>mkdir db
-``
+```
 
 Acesse o diretório /bin no caminho de instalação do MongoDB via prompt de comando. 
 Exemplo:
