@@ -115,8 +115,7 @@ Resultado:
 ![](/img/07.JPG)
 
 
-Para buscar por id há duas formas, pela url ou atributo, basta enviar uma requisição GET para a url localhost:800/planet/<id>
-  
+Para buscar por id há duas formas, pela url ou atributo, basta enviar uma requisição GET para a url localhost:800/planet/id
 ![](/img/08.2.JPG)
 
 
@@ -125,7 +124,7 @@ Ou por atributo no corpo da requisição:
 
 
 ### Deletando planeta
-Para deletar um planeta, faça uma requisição DELETE para a url localhost:800/planet/<id>.
+Para deletar um planeta, faça uma requisição DELETE para a url localhost:800/planet/id.
 ![](/img/09.JPG)
   
   
