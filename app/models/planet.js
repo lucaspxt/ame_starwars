@@ -8,5 +8,5 @@ const planetSchema = new mongoose.Schema({
     films: {type: Number}
 })
 
-module.exports = restful.model('planete', planetSchema)
+module.exports = restful.model('planet', planetSchema)
 
