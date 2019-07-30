@@ -86,6 +86,7 @@ Como não possuimos nenhum registro de planeta no banco de dados, o primeiro pas
 Conforme requisito, a API deverá utilizar o nome do planeta para consultar a [API pública do Star Wars](https://swapi.co/) e obter a quantidade de aparições em filmes.
 
 Selecione o método POST na seleção ao lado do endereço de URL, clique na aba "Body" e marque a opção "x-www-form-urlencoded". Nos campos abaixo adicione os atributos e valores conforme o exemplo abaixo:
-
 ![](/img/01.JPG)
 
+Logo após, clique no botão azul "Send" e pronto, a mensagem de retorno trará os dados após a adição.
+![](/img/02.JPG)
