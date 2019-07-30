@@ -26,6 +26,7 @@ Queremos criar um jogo com algumas informações da franquia Star Wars, para iss
 * Request
 
 **MongoDB**
+
 **Postman**
 
 ## Instalações
@@ -58,3 +59,22 @@ Uma vez que apareça no prompt “[initandlisten] waiting for connections on por
 Agora abra outro prompt de comando para a execução da aplicação...
 
 ## Executando a aplicação
+Preferencialmente, crie o diretório e salve o código fonte no caminho c:\ame\api.
+
+Acesse o diretório via prompt de comando:
+```
+cd c:/ame/api
+```
+
+Instale as dependências necessárias executando o comando "npm install --save".
+```
+C:\ame\api> npm install --save
+```
+
+Após a instalção, basta agora iniciar a aplicação com o comando "node app.js".
+```
+C:\ame\api> node app.js
+```
+
+
+
