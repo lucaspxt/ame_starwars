@@ -82,11 +82,54 @@ Uma vez que apareça no prompt "Server ON port: 8000", está pronto.
 Iremos utilizar o Postman para consumir a API. 
 Abra o Postman e digite na barra de endereço a URL "localhost:8000/planet".
 
+### Adicionando planeta
 Como não possuimos nenhum registro de planeta no banco de dados, o primeiro passo será realizar uma requisição POST para nossa API contendo os atributos name (nome), climate (clima) e terrain (terreno). 
 Conforme requisito, a API deverá utilizar o nome do planeta para consultar a [API pública do Star Wars](https://swapi.co/) e obter a quantidade de aparições em filmes.
 
 Selecione o método POST na seleção ao lado do endereço de URL, clique na aba "Body" e marque a opção "x-www-form-urlencoded". Nos campos abaixo adicione os atributos e valores conforme o exemplo abaixo:
 ![](/img/01.JPG)
 
+
 Logo após, clique no botão azul "Send" e pronto, a mensagem de retorno trará os dados após a adição.
 ![](/img/02.JPG)
+
+
+Você poderá obter uma relação de planetas através do link https://swapi.co/api/planets.
+Podemos adicionar mais um planeta conforme o exemplo abaixo:
+![](/img/03.JPG)
+
+### Listando planetas
+Agora vamos obter a lista de todos os planetas adicionados até o momento, para isso, selecione o método GET e desmarque os campos de atributo.
+![](/img/04.JPG)
+
+
+Resultado:
+![](/img/05.JPG)
+
+### Buscando planetas
+Podemos fazer buscas por nome, id ou qualquer outro atributo desejado. Para buscar por nome, mantenha o método como GET e marque o atributo name, alterando o campo value para o valor desejado.
+![](/img/06.JPG)
+
+
+Resultado:
+![](/img/07.JPG)
+
+
+Para buscar por id há duas formas, pela url ou atributo, basta enviar uma requisição GET para a url localhost:800/planet/<id>
+![](/img/08.2.JPG)
+
+
+Ou por atributo no corpo da requisição:
+![](/img/08.JPG)
+
+
+### Deletando planeta
+Para deletar um planeta, faça uma requisição DELETE para a url localhost:800/planet/<id>.
+![](/img/09.JPG)
+  
+  
+Para verificar se o arquivo foi removido, basta listar todos os planetas com uma requisição GET para a url localhost:800/planet.
+![](/img/10.JPG)
+
+
+Obrigado pela consideração!
